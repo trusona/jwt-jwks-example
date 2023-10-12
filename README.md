@@ -1,4 +1,4 @@
-# Trusona Labs Examples
+# Trusona Labs
 
 ## JWT / JWKS Example
 
