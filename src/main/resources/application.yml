@@ -1,0 +1,23 @@
+logging:
+  level:
+    org.springframework: WARN
+    root: INFO
+spring:
+  main:
+    banner-mode: CONSOLE
+  session:
+    store-type: none
+server:
+  servlet:
+    context-path: /
+  forward-headers-strategy: NATIVE
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: info,metrics,threaddump
+security:
+  basic:
+  enabled: false
